@@ -53,5 +53,5 @@ WHEN I click on the Logout button
 THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button  
 ```
 
-
+<img width="1200" alt="Browser result" src="https://user-images.githubusercontent.com/71652307/117847648-8c8b4f80-b250-11eb-938e-aa8487d7c410.png">
 
