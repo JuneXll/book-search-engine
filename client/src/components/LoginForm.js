@@ -37,7 +37,7 @@ const LoginForm = () => {
         throw new Error('something went wrong!');
       }
 
-      const { token, user } = await response.json();
+      const { token, user } = await data.loginUser;
       console.log(user);
       Auth.login(token);
 
@@ -46,7 +46,7 @@ const LoginForm = () => {
         email:'',
         password:''
       })
-      
+
     } catch (err) {
       console.error(err);
       setShowAlert(true);
