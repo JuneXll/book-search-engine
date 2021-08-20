@@ -48,7 +48,7 @@ const SignupForm = () => {
         email: '' ,
         password: ''
       });
-      
+
     } catch (err) {
       console.error(err);
       setShowAlert(true);
